@@ -22,6 +22,12 @@
 1. Find what pipe | is used for in linux
 2. Use commands grep, less, more, head, tail
 
-## 5 - More commands
+## 5 - Cli arguments
+
+1. Make a simple bash script that takes one argument and prints "hello <argument>"
+2. for the above commands, do variations with optional parameters like "command --optional-argument" 
+
+## 6 - More commands
 
 1. Find out how to use find, sed, awk (print) commands 
+
