@@ -9,6 +9,7 @@
 4. push the commit and create a merge request to the original repo.
 5. Update your code, and instead of saying task 1 done, it should say task1 done with the link to the merge request 
 6. wait for the code to merge
+7. task 1 done https://gitlab.com/moonblade/jw-basics/-/merge_requests/1
 
 ## 2 - fork workflow - sync
 
