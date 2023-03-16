@@ -30,4 +30,9 @@
 1. reuse an old branch, but pull in new chagnes from main branch so that you can still create a merge request without any conflicts
 
 
+## 5 - Conflict resolution
 
+1. Pull the newest content in main 
+2. Switch to a new branch called conflict
+3. Change this line - add something here
+4. Push to the branch conflict. See what happens
