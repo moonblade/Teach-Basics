@@ -14,6 +14,7 @@
 ## 3 - Multi stage dockerfile
 
 1. Create dockerfile for counter.go, but use multi stage build, the final build should only have the binary and nothing else.
+2. Create it with a non default name of multi-stage-dockerfile
 
 ## 4 - Push to gitlab cr
 
