@@ -31,3 +31,6 @@
 
 1. Find out how to use find, sed, awk (print) commands 
 
+## 7 - Source
+
+1. Make the command alias k=kubectl persistant across all terminals without having to type it each time
