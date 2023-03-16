@@ -23,7 +23,7 @@
 1. get access to this repo directly with your username - by asking the admin
 2. make a new branch with your changes (saying task 3 done)
 3. push your new branch and create a merge request from that to main
-
+4. task 3 done
 
 ## 4 - branch workflow - sync
 
