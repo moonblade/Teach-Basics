@@ -16,7 +16,15 @@
 1. Create dockerfile for counter.go, but use multi stage build, the final build should only have the binary and nothing else.
 2. Create it with a non default name of multi-stage-dockerfile
 
-## 4 - Push to gitlab cr
+## 4 - Push to docker io
 
+1. Push the earlier image to docker.io, with the image name counter, and tag as v1
+
+## 5 - Multiple images and env variables
+
+1. Create dockerfile for persistant-counter, it needs another container with mongod installed to be running in parallel and the second container ip to be given thorugh env variable MONGO_HOST
+
+## 6. Push to gitlab cr
 1. Push the earlier created image to gitlab container registry https://gitlab.com/moonblade/jw-basics/container_registry
+
 
