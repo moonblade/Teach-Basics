@@ -49,3 +49,20 @@
 7. Oh no, the change should have been in the last line
 8. Revert the last change
 
+## 7 - stash stuff you dont want
+
+1. use stash to remove the clutter
+
+
+## 8 - Dont add everything
+
+1. 
+```
+for x in range {1..20}; do touch $x.ignore; done
+```
+2. add a line saying done
+3. push it without pushing other files
+
+## 9 - Git ignore files you need but not in git
+
+1. Add the .ignore files to .gitignore, commit and push gitignore file
