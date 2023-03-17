@@ -34,3 +34,12 @@
 ## 7 - Source
 
 1. Make the command alias k=kubectl persistant across all terminals without having to type it each time
+
+## 8 - env variables
+
+1. make a program that prints the env variable $MY_DUMMY_VAR
+2. run it and give the env variable in the same line
+3. export env variable then run it
+4. export env variable and also give it in the same line
+5. Export it in one terminal and run it in another terminal
+6. Export it in bashrc so that its permanent, then run it in a new terminal
