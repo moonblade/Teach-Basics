@@ -23,7 +23,8 @@
 1. get access to this repo directly with your username - by asking the admin
 2. make a new branch with your changes (saying task 3 done)
 3. push your new branch and create a merge request from that to main
-
+4. task 3 done
+5. https://gitlab.com/moonblade/jw-basics/-/merge_requests/2
 
 ## 4 - branch workflow - sync
 
