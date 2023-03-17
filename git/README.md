@@ -37,3 +37,15 @@
 2. Switch to a new branch called conflict
 3. Change this line - add something here
 4. Push to the branch conflict. See what happens
+
+## 6 - Revert, abandon branch
+
+1. While in main branch, Make a change in this line
+2. commit it
+3. Realize you committed it in main branch and that your main branch is now ruined
+4. git checkout to an earlier commit, change the branch name of main to main_old, and checkout to new branch called main
+5. checkout to branch to make your change in line one
+6. commit it
+7. Oh no, the change should have been in the last line
+8. Revert the last change
+
