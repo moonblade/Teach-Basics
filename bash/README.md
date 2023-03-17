@@ -11,6 +11,13 @@ task 1 done
 
 1. Find out what ls, echo, touch, mkdir, cat, chmod do
 
+## 2.5 - Bash background
+
+1. Relative path and absolute path
+2. . and ..
+3. manual pages 
+4. Optional and required arguments
+
 ## 3 - Redirection
 
 1. Redirect output (stdout) of a command to a file
