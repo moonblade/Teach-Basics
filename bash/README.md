@@ -5,7 +5,6 @@
 1. The terminal in mac sucks. Install iterm
 2. If interested, use quake mode so that you're able to summon a terminal in any screen with a shortcut
 3. Install oh my zsh on it as well (has some aliases and autocompletes that are handy)
-task 1 done
 
 ## 2 - Common commands
 
