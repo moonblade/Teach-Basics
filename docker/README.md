@@ -27,4 +27,11 @@
 ## 6. Push to gitlab cr
 1. Push the earlier created image to gitlab container registry https://gitlab.com/moonblade/jw-basics/container_registry
 
+## 7 - Docker compose
+
+1. Do task 5, but use docker compose to accomplish the connections between different dockers
+
+## 8 - Persistance
+
+1. Was the data in task 5 persisted across restarts? if not redo it such that each time the instance starts it should start with the previous value of count last saved 
 

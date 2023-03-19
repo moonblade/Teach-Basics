@@ -51,3 +51,13 @@ task 1 done
 4. export env variable and also give it in the same line
 5. Export it in one terminal and run it in another terminal
 6. Export it in bashrc so that its permanent, then run it in a new terminal
+
+## 9 - Vim basics
+
+1. navigate around, words, end of line, end of page, end of document
+2. Make some changes, in current space and in next line
+3. Save and quit
+4. Reload the page and remove unsaved changes
+5. Undo and redo
+6. Search and replace
+7. macros - save actions and replay them
