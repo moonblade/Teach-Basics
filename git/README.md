@@ -63,3 +63,7 @@ for x in range {1..20}; do touch $x.ignore; done
 ## 9 - Git ignore files you need but not in git
 
 1. Add the .ignore files to .gitignore, commit and push gitignore file
+
+## 10 - Stash
+
+1. Remove clutter using git stash
