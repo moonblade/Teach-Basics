@@ -1,0 +1,2 @@
+bash/resources/cleanup/*
+bash/resources/cleanup/!empty

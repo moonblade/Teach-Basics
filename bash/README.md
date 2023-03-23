@@ -38,9 +38,12 @@
 
 1. Find out how to use find, sed, awk (print) commands 
 
-## 7 - Source
+## 7 - Source, aliases and functions
 
-1. Make the command alias k=kubectl persistant across all terminals without having to type it each time
+1. Add to path so that your binaries work everywhere
+2. Add aliases
+3. Create a function mcd, that creates a directory and then cd's into it
+
 
 ## 8 - env variables
 
@@ -51,7 +54,7 @@
 5. Export it in one terminal and run it in another terminal
 6. Export it in bashrc so that its permanent, then run it in a new terminal
 
-## 9 - Vim basics
+## 9 - Vim basics (optional)
 
 1. navigate around, words, end of line, end of page, end of document
 2. Make some changes, in current space and in next line
@@ -60,3 +63,12 @@
 5. Undo and redo
 6. Search and replace
 7. macros - save actions and replay them
+
+## 10 - Basic scripting
+1. Run 'make bash-scripting-1' 
+2. remove every png file in 'bash/resources/cleanup' 
+3. remove every csv file in 'bash/resources/cleanup' that start with the name file and are numbered between 30 and 60
+4. remove every jpg file in 'bash/resources/cleanup' that have a file with the same name but with csv extention
+5. For every pdf file, with the character f in its name, move it to the folder fpdf
+6. for every txt file, if there it has the characters 00 inside it, move it to folder txt00
+
