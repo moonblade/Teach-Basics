@@ -32,7 +32,9 @@
 ## 5 - Cli arguments
 
 1. Make a simple bash script that takes one argument and prints "hello <argument>"
-2. for the above commands, do variations with optional parameters like "command --optional-argument" 
+2. Make it so that if no <argument> is provided, it takes a default value.
+2. Change it so that if no <argument> is provided, it gives usage instructions, similar to what happens if you run `mv` without arguments.
+3. for the above commands, do variations with optional parameters like "command --optional-argument" 
 
 ## 6 - More commands
 
