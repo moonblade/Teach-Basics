@@ -16,6 +16,7 @@
 2. . and ..
 3. manual pages 
 4. Optional and required arguments
+5. Subcommands with $()
 
 ## 3 - Redirection
 
@@ -74,4 +75,7 @@
 4. remove every jpg file in 'bash/resources/cleanup' that have a file with the same name but with csv extention
 5. For every pdf file, with the character f in its name, move it to the folder fpdf
 6. for every txt file, if there it has the characters 00 inside it, move it to folder txt00
+
+## 11 - Makefiles
+1. Sometimes you want to save commands along with your repos, and complicated commands or sets of commands are too much to remember, or have no idea about when you come back to the repo a year later
 
