@@ -59,3 +59,6 @@
 ## 13. Liveness and readiness probes
 - Setup liveness and readiness for counter app
 
+## 14. Customization, and templating
+- Kustomize
+- Helm intro
