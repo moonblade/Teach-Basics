@@ -32,7 +32,7 @@
 
 ## 5 - Cli arguments
 
-1. Make a simple bash script that takes one argument and prints "hello <argument>"
+1. Make a simple bash script that takes one argument and prints "hello \<argument\>"
 2. Make it so that if no <argument> is provided, it takes a default value.
 3. Read up on difference between default value expansions, [Docs](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html#Shell-Parameter-Expansion)
 4. Change it so that if no <argument> is provided, it gives usage instructions, similar to what happens if you run `mv` without arguments.
