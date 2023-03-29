@@ -26,6 +26,7 @@
 
 ## 6. Push to gitlab cr
 1. Push the earlier created image to gitlab container registry https://gitlab.com/moonblade/jw-basics/container_registry
+2. Push to local docker registry as well
 
 ## 7 - Docker compose
 
