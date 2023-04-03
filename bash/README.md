@@ -18,17 +18,17 @@
 4. Optional and required arguments
 5. Subcommands with $()
 
-## 3 - Redirection
+## 3 - Pipe
+
+1. Find what pipe | is used for in linux
+2. Use commands grep, less, more, head, tail
+
+## 4 - Redirection
 
 1. Redirect output (stdout) of a command to a file
 2. Redirect error stream (stderr) of a command to a file, but keep stdout in console itself
 3. Redirect both stdout and stderr to same file
 4. redirect stdout to out.log and error to err.log
-
-## 4 - Pipe
-
-1. Find what pipe | is used for in linux
-2. Use commands grep, less, more, head, tail
 
 ## 5 - Cli arguments
 
