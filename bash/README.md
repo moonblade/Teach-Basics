@@ -22,6 +22,8 @@
 
 1. Find what pipe | is used for in linux
 2. Use commands grep, less, more, head, tail
+3. Escape character
+4. Wildcards
 
 ## 4 - Redirection
 
