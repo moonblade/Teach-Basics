@@ -9,3 +9,12 @@ The aim of this repo is to get through the basics of a lot of auxialliary tech s
 ## [Docker](docker/README.md)
 
 ## [Kubernetes](k8s/README.md)
+
+# Ideas
+
+1. APIs
+2. Python - some basics of programming and libraries
+3. Helm
+4. GitOps
+5. React
+
