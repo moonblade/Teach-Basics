@@ -44,7 +44,7 @@
 
 1. Find out how to use find, sed, awk (print) commands 
 2. [find](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
-3. [sed](https://phoenixnap.com/kb/linux-sed#:~:text=The%20Linux%20sed%20command%20is%20most%20commonly%20used%20for%20substituting,%2F%20\)%20for%20separating%20text%20fields.)
+3. [sed](https://phoenixnap.com/kb/linux-sed#:~:text=SED%20is%20a%20text%20stream,file%20in%20a%20text%20editor.)
 4. [awk](https://www.javatpoint.com/linux-awk-command#:~:text=The%20awk%20command%20is%20used,language%20used%20for%20text%20scripting.)
 
 ## 7 - Source, aliases and functions
@@ -56,30 +56,32 @@
 <details>
 <summary> sample </sample>
 
-```bash
-function book() {
-  filename=${1}
-  if [[ -z "$filename" ]]
-  then
-    echo "Usage: book [filename]"
-    return 0
-  fi
-  # if [[ "${filename: -4}" == "epub" ]]
-  # then
-  #   echo "File $filename is epub, converting to mobi"
-  #   /Applications/calibre.app/Contents/MacOS/ebook-convert $filename ${filename%epub}mobi
-  #   filename=${filename%epub}mobi
-  # fi
-  if [[ "${filename: -4}" == "mobi" || "${filename: -4}" == "epub" ]]
-  # if [[ "${filename: -4}" == "mobi" ]]
-  then
-    echo "Sending $filename to kindle"
-    echo "book: $filename" | mutt -s "book: $filename" -a $filename -- email@kindle.com
-  else
-    echo "Unknown format"
-  fi
-}
+  ```bash
+  
+  function book() {
+    filename=${1}
+    if [[ -z "$filename" ]]
+    then
+      echo "Usage: book [filename]"
+      return 0
+    fi
+    # if [[ "${filename: -4}" == "epub" ]]
+    # then
+    #   echo "File $filename is epub, converting to mobi"
+    #   /Applications/calibre.app/Contents/MacOS/ebook-convert $filename ${filename%epub}mobi
+    #   filename=${filename%epub}mobi
+    # fi
+    if [[ "${filename: -4}" == "mobi" || "${filename: -4}" == "epub" ]]
+    # if [[ "${filename: -4}" == "mobi" ]]
+    then
+      echo "Sending $filename to kindle"
+      echo "book: $filename" | mutt -s "book: $filename" -a $filename -- email@kindle.com
+    else
+      echo "Unknown format"
+    fi
+  }
 ```
+
 <details>
 
 
