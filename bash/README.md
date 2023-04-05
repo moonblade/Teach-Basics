@@ -44,7 +44,7 @@
 
 1. Find out how to use find, sed, awk (print) commands 
 2. [find](https://www.redhat.com/sysadmin/linux-find-command#:~:text=The%20find%20command%20is%20one,and%20not%20just%20by%20filename.)
-3. [sed](https://phoenixnap.com/kb/linux-sed#:~:text=The%20Linux%20sed%20command%20is%20most%20commonly%20used%20for%20substituting,%2F%20)%20for%20separating%20text%20fields.)
+3. [sed](https://phoenixnap.com/kb/linux-sed#:~:text=The%20Linux%20sed%20command%20is%20most%20commonly%20used%20for%20substituting,%2F%20\)%20for%20separating%20text%20fields.)
 4. [awk](https://www.javatpoint.com/linux-awk-command#:~:text=The%20awk%20command%20is%20used,language%20used%20for%20text%20scripting.)
 
 ## 7 - Source, aliases and functions
@@ -55,6 +55,7 @@
 
 <details>
 <summary> sample </sample>
+
 ```bash
 function book() {
   filename=${1}
