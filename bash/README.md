@@ -54,7 +54,7 @@
 3. Create a function mcd, that creates a directory and then cd's into it
 
 <details>
-<summary> sample </sample>
+  <summary> sample </summary>
 
   ```bash
   
