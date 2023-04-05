@@ -82,7 +82,7 @@
   }
 ```
 
-<details>
+</details>
 
 
 ## 8 - env variables
