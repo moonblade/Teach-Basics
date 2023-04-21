@@ -108,7 +108,7 @@
 1. Run 'make bash-scripting-1' 
 2. remove every png file in 'bash/resources/cleanup' 
 3. remove every csv file in 'bash/resources/cleanup' that start with the name file and are numbered between 30 and 60
-4. remove every jpg file in 'bash/resources/cleanup' that have a file with the same name but with csv extention
+4. remove every jpg file in 'bash/resources/cleanup' that has a corresponding csv file with the same name
 5. For every pdf file, with the character f in its name, move it to the folder fpdf
 6. for every txt file, if there it has the characters 00 inside it, move it to folder txt00
 
