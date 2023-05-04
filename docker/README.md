@@ -3,7 +3,17 @@
 
 ## 1 - Why docker 
 
-- call?
+- add infra to application
+
+## 1.1 - Terminology
+
+- Images and containers
+- Client and daemon
+- Registry
+
+## 1.2 - Helloworld
+
+1. Create a dockerfile that prints Hello world with bash
 
 ## 2 - Simple dockerfile
 

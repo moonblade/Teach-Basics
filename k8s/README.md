@@ -1,10 +1,13 @@
 ## 1. why k8s
-- Call
 - Orchastration
+    - scaling
+    - rollouts
+    - loadbalancing
 - Declarative/Imperative
 
-
 ## 2. Configs and Contexts
+
+- Create cluster with kind and docker desktop, see config file
 - How to connect to different clusters
 - Instal kubie for a better experience
 
