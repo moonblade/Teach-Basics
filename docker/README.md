@@ -21,6 +21,13 @@
 2. deploy the docker image on local computer and connect it to localhost:8080
 3. try out localhost:8080/count, localhost:8080/increase, localhost:8080/decrease
 
+## 2.1 - Notes: Networks
+
+1. Different networks
+2. cidr
+3. hostname and ip - dns
+4. network interfaces
+
 ## 3 - Multi stage dockerfile
 
 1. Create dockerfile for counter.go, but use multi stage build, the final build should only have the binary and nothing else.
