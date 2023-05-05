@@ -25,7 +25,7 @@
 
 1. Different networks
 2. cidr
-3. hostname and ip - dns
+3. hostname and ip and ports - dns
 4. network interfaces
 
 ## 3 - Multi stage dockerfile
