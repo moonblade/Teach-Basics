@@ -5,14 +5,11 @@
     - loadbalancing
 - Declarative/Imperative
 
-## 2. Configs and Contexts
+## 2. Configs and Contexts and your own cluster
 
-- Create cluster with kind and docker desktop, see config file
+- Create cluster with any two of kind, docker desktop, minikube, rancher, see config file
 - How to connect to different clusters
 - Instal kubie for a better experience
-
-## 3. Set up your own cluster
-- Use rancher desktop or minikube
 
 ## 4. Pod
 - Setup a pod that prints hello world and then exits
