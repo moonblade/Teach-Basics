@@ -40,6 +40,7 @@
 ## 5 - Multiple images and env variables
 
 1. Create dockerfile for persistant-counter, it needs another container with mongod installed to be running in parallel and the second container ip to be given thorugh env variable MONGO_HOST
+- Note: microservice architecture
 
 ## 6. Push to gitlab cr
 1. Push the earlier created image to gitlab container registry https://gitlab.com/moonblade/jw-basics/container_registry
