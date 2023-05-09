@@ -35,7 +35,7 @@
 
 ## 4 - Push to docker io
 
-1. Push the earlier image to docker.io, with the image name counter, and tag as v1
+1. Push the earlier image to docker.io, with the image name counter, and tag as 1.0.0-scratch
 
 ## 5 - Multiple images and env variables
 
