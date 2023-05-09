@@ -21,10 +21,10 @@
 - Set it up in different namespaces
 
 ## 5. Deployments and services
-- Setup deployment and service for persistent counter
-- Add a frontend to it as well
+- Setup deployment and service for mcounter
+- Setup deployment and service for persistent counter along with mongo
 - ClusterIP, Loadbalancer, Nodeport
-- Connect frontend from different namespace to backend using externalname
+- Connect mongo from different namespace to backend using externalname
 
 ## 6. Persistent volumens and volume claims
 - Setup pvc for mongo to work properly
