@@ -17,7 +17,6 @@ import (
 type Counter struct {
 	ID    primitive.ObjectID `bson:"_id,omitempty"`
 	Value int                `bson:"count"`
-	Dummy int                `bson:"dummy"`
 }
 
 var count Counter // initialize counter to zero
@@ -27,7 +26,11 @@ func connectDB() (*mongo.Client, error) {
   if _, exist := os.LookupEnv("MONGO_HOST"); !exist {
     return nil, errors.New("Please provide MONGO_HOST env variable")
   }
-	clientOptions := options.Client().ApplyURI("mongodb://"+os.Getenv("MONGO_HOST")+":27017")
+  port := "27017"
+  if _, exist := os.LookupEnv("MONGO_PORT"); exist {
+    port = os.Getenv("MONGO_PORT")
+  }
+	clientOptions := options.Client().ApplyURI("mongodb://"+os.Getenv("MONGO_HOST")+":"+port)
 	client, err := mongo.Connect(context.Background(), clientOptions)
 	if err != nil {
 		return nil, err
@@ -38,6 +41,7 @@ func connectDB() (*mongo.Client, error) {
 	if err != nil {
 		return nil, err
 	}
+	fmt.Println("Successfully connected to mongodb")
 
 	return client, nil
 }
@@ -55,7 +59,7 @@ func initializeCount() error {
 	err = collection.FindOne(context.Background(), filter).Decode(&count)
 	if err != nil {
 		// If no count value is found, initialize count to zero and insert it into the database
-    count = Counter{Value: 0, Dummy: 1234}
+    count = Counter{Value: 0}
 		_, err = collection.InsertOne(context.Background(), count)
 		if err != nil {
 			return err

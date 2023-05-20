@@ -21,7 +21,8 @@
 - Set it up in different namespaces
 
 ## 5. Deployments and services
-- Setup deployment and service for mcounter
+- Setup deployment for mongo
+- Setup service for mongo
 - Setup deployment and service for persistent counter along with mongo
 - ClusterIP, Loadbalancer, Nodeport
 - Connect mongo from different namespace to backend using externalname
