@@ -27,7 +27,7 @@
 - ClusterIP, Loadbalancer, Nodeport
 - Connect mongo from different namespace to backend using externalname
 
-## 6. Persistent volumens and volume claims
+## 6. Persistent volumes and volume claims
 - Setup pvc for mongo to work properly
 - Use bitnami mongo, outsource work, NIH syndrome
 

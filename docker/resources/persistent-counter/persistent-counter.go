@@ -30,7 +30,20 @@ func connectDB() (*mongo.Client, error) {
   if _, exist := os.LookupEnv("MONGO_PORT"); exist {
     port = os.Getenv("MONGO_PORT")
   }
-	clientOptions := options.Client().ApplyURI("mongodb://"+os.Getenv("MONGO_HOST")+":"+port)
+  username := ""
+  if _, exist := os.LookupEnv("MONGO_USER"); exist {
+    username = os.Getenv("MONGO_USER")
+  }
+  password := ""
+  if _, exist := os.LookupEnv("MONGO_PASS"); exist {
+    password = os.Getenv("MONGO_PASS")
+  }
+
+  uri := "mongodb://"+os.Getenv("MONGO_HOST")+":"+port
+  if (username != "") {
+    uri = "mongodb://"+username+":"+password+"@"+os.Getenv("MONGO_HOST")+":"+port
+  }
+	clientOptions := options.Client().ApplyURI(uri)
 	client, err := mongo.Connect(context.Background(), clientOptions)
 	if err != nil {
 		return nil, err
