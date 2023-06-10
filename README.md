@@ -12,10 +12,11 @@ The aim of this repo is to get through the basics of a lot of auxialliary tech s
 
 ## [Helm](helm/README.md)
 
+## [GitOps](gitops/README.md)
+
 # Ideas
 
 1. APIs
 2. Python - some basics of programming and libraries
-4. GitOps
 5. React
 
