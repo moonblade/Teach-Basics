@@ -43,9 +43,11 @@
 ## 9. Ingress
 - Note to self: Find a way to do this locally easier 
 - Setup ingress for frontend of counter app
+- https://github.com/kubernetes/ingress-nginx
 
 ## 10. Hpa
 - Make counter scale based on usage, try it out with curl on repeat
+- Note: https://dev.to/docker/enable-kubernetes-metrics-server-on-docker-desktop-5434
 
 ## 11. Network policies
 - Only counter app should be able to access db
