@@ -54,6 +54,8 @@
 - Counter app shouldn't be able to acess anything other than db
 - db shouldn't be able to access anything
 - exec into db pod and try to ping anything in the network or the internet
+- illuminatio
+- cni
 
 ## 12. Prometheus, Grafana, Loki (Optional)
 - Setup a simplistic version of it, and pipe logs to a central logging system
