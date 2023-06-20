@@ -3,16 +3,25 @@
 More like generic programming
 
 ## Hello world
+- install python
+- hello world running from terminal
+
+## I/O
+
+- file
+- stdin
+- user read vs auto read
 
 ## Variables
 
 - typed and untyped
+- type casting
 
 ## Data types
 
 - str, int, bool, float
-- list, dict
 - None
+- list, dict
 
 ## Branching statements
 
@@ -26,12 +35,6 @@ More like generic programming
 ## Functions
 
 - Reusability
-
-## I/O
-
-- file
-- stdin
-- user read vs auto read
 
 ## Modules
 
