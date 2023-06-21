@@ -21,7 +21,13 @@ More like generic programming
 
 - str, int, bool, float
 - None
-- list, dict
+- list
+    - index
+    - append
+    - sum
+    - readlist from user
+    - slicing and concating
+- dict
 
 ## Branching statements
 
