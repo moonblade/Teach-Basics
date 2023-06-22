@@ -23,11 +23,16 @@ More like generic programming
 - None
 - list
     - index
-    - append
+    - append/remove
     - sum
     - readlist from user
     - slicing and concating
 - dict
+    - infinitely recursive, indexing
+    - key, value
+    - adding/updating
+    - retrieving
+    - exceptions
 
 ## Branching statements
 
