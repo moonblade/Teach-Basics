@@ -37,6 +37,7 @@ More like generic programming
 ## Branching statements
 
 - if else
+- and/or
 - elif
 
 ## Looping statements
