@@ -2,15 +2,9 @@
 
 More like generic programming
 
-## Hello world
+## Env setup and Hello world
 - install python
 - hello world running from terminal
-
-## I/O
-
-- file
-- stdin
-- user read vs auto read
 
 ## Variables
 
@@ -34,6 +28,13 @@ More like generic programming
     - retrieving
     - exceptions
 
+## I/O
+
+- file
+- stdin
+- user read vs auto read
+
+
 ## Branching statements
 
 - if else
@@ -52,10 +53,6 @@ More like generic programming
 
 - Refactoring
 
-## (Optional) Classes
-
-- Encapsulation
-
 ## Pip and import
 
 - import antigravity
@@ -64,3 +61,9 @@ More like generic programming
 ## Try..Except
 
 - Error handling
+
+## (Optional) Classes
+
+- Encapsulation
+
+
