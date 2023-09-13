@@ -1,0 +1,29 @@
+User Age and Eligibility:
+Write a program that takes the user's age as input and tells them if they are eligible to vote (18 years or older).
+
+Calculator Input:
+Create a simple calculator program that asks the user for two numbers and an operator (+, -, *, /). Perform the corresponding calculation and display the result.
+
+Temperature Converter:
+Build a program that converts temperatures between Fahrenheit and Celsius. Ask the user for the temperature and whether it's in Fahrenheit or Celsius, then convert and display the result.
+
+Grading Program:
+Write a program that takes a student's percentage score as input and prints their letter grade using the grading scale: A (90-100), B (80-89), C (70-79), D (60-69), F (0-59).
+
+Day of the Week:
+Create a program that asks the user for a number between 1 and 7 and prints the corresponding day of the week (1 for Monday, 2 for Tuesday, etc.).
+
+Leap Year Checker:
+Build a program that determines whether a year is a leap year. Ask the user for a year and display whether it's a leap year or not.
+
+BMI Calculator:
+Write a program that calculates a person's BMI (Body Mass Index) based on their height (in meters) and weight (in kilograms). Ask the user for their height and weight, then display their BMI and an interpretation (e.g., "Underweight," "Normal weight," "Overweight").
+
+Password Checker:
+Create a program that asks the user to enter a password. Check if the password meets the following criteria: at least 8 characters long, contains both letters and numbers. Provide appropriate feedback to the user.
+
+Ticket Pricing:
+Build a program that asks the user for their age and whether they are a student (yes/no). Based on their age and student status, determine the ticket price for a movie: Adult, Student, or Child.
+
+Triangle Classifier:
+Write a program that asks the user for the lengths of three sides of a triangle. Classify the triangle as equilateral, isosceles, scalene, or not a triangle based on the input.
