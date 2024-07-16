@@ -15,7 +15,7 @@ More like generic programming
 ## Data types
 
 - str, int, bool, float
-- Conversations of above
+- Convertions of above
 - None
 - list
     - index
