@@ -8,16 +8,19 @@ More like generic programming
 
 ## Variables
 
-- typed and untyped
+- typed and untyped languages
+- Simple input output
 - type casting
 
 ## Data types
 
 - str, int, bool, float
+- Conversations of above
 - None
 - list
     - index
     - append/remove
+    - Iterating over a list with loops
     - sum
     - readlist from user
     - slicing and concating
@@ -33,6 +36,7 @@ More like generic programming
 - file
 - stdin
 - user read vs auto read
+- configuration and env variables/files
 
 
 ## Branching statements
@@ -44,19 +48,25 @@ More like generic programming
 ## Looping statements
 
 - For loops
+- While loops
+- Break and Continue
 
 ## Functions
 
 - Reusability
+- Function parameters
+- Typing a return value
+- Returns and side effects
 
 ## Modules
 
 - Refactoring
-
-## Pip and import
-
+- pip
+- imports
 - import antigravity
 - NIH
+- multiple files
+- if  __name__ == "__main__"
 
 ## Try..Except
 
